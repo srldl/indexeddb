@@ -1,0 +1,30 @@
+{
+  "name": "indexeddb",
+  "version": "0.0.1",
+  "description": "IndexedDB test",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srldl/indexeddb.git"
+  },
+  "keywords": [
+    "indexedDB"
+  ],
+  "author": "srldl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srldl/indexeddb/issues"
+  },
+  "homepage": "https://github.com/srldl/indexeddb#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
